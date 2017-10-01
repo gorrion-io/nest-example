@@ -7,7 +7,8 @@
     "start": "node index.js",
     "start:watch": "nodemon",
     "prestart:prod": "tsc",
-    "start:prod": "node dist/server.js"
+    "start:prod": "node dist/server.js",
+    "test": "jasmine-ts \"./**/*.spec.ts\""
   },
   "dependencies": {
     "@nestjs/common": "^4.0.0",
@@ -15,13 +16,19 @@
     "@nestjs/microservices": "^4.0.0",
     "@nestjs/testing": "^4.0.0",
     "@nestjs/websockets": "^4.0.0",
+    "jasmine-spec-reporter": "^4.2.1",
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.0",
-    "typescript": "^2.5.2"
+    "typescript": "^2.5.2",
+    "uuid": "3.1.0"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.28",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "jasmine-ts": "^0.2.1",
     "nodemon": "^1.12.1",
     "ts-node": "^3.3.0"
   }
