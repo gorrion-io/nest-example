@@ -6,6 +6,7 @@ This is a sample app build upon [Nest](https://github.com/kamilmysliwiec/nest) f
 
 ```
 $ npm install
+$ typings install
 ```
 
 ## Start
