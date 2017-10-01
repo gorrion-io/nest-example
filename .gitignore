@@ -20,4 +20,5 @@ npm-debug.log
 # dist
 /dist
 
+#typings
 /typings
