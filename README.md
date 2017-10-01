@@ -1,6 +1,6 @@
 [![Nest Logo](http://kamilmysliwiec.com/public/nest-logo.png)](http://nestjs.com/)
 
-The [Nest](https://github.com/kamilmysliwiec/nest) framework starter repository. 
+This is a sample app build upon [Nest](https://github.com/kamilmysliwiec/nest) framework [starter repository](https://github.com/nestjs/nest-typescript-starter) exploiting it's modular code organization capabilities for separation of particular application parts. 
 
 ## Installation
 
@@ -14,7 +14,17 @@ $ npm install
 $ npm run start
 ```
 
-## People
+or 
 
-- Author - [Kamil Myśliwiec](http://kamilmysliwiec.com)
-- Website - [http://nestjs.com](http://nestjs.com/)
+
+```
+$ npm run start:watch
+```
+
+## Test
+
+
+```
+$ npm run test
+```
+
